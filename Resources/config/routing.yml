@@ -1,0 +1,3 @@
+tm_solution_cron_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TMSolutionCronBundle:Default:index }

@@ -1,0 +1,7 @@
+parameters:
+#    tm_solution_cron.example.class: TMSolution\CronBundle\Example
+
+services:
+    TMSolution.CronBundle.newTask:
+        class: "TMSolution\CronBundle\Service\ManageCronTask"
+        arguments: [@doctrine.orm.entity_manager]
