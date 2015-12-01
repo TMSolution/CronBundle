@@ -1,0 +1,28 @@
+{
+    "name": "tmsolution/cron-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 bundle for logging",
+    "keywords": ["symfon2", "cron", "task", "command"],
+    "homepage": "https://github.com/TMSolution/CronBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mariusz Piela",
+            "email": "mariusz.piela@tmsolution.pl"
+        },
+        {
+            "name": "Jacek Lozinski",
+            "email": "jacek.lozinski@tmsolution.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TMSolution\\CronBundle\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
