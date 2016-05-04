@@ -3,5 +3,5 @@ parameters:
 
 services:
     TMSolution.CronBundle.newTask:
-        class: "TMSolution\CronBundle\Service\ManageCronTask"
-        arguments: [@doctrine.orm.entity_manager]
+        class: TMSolution\CronBundle\Service\ManageCronTask
+        arguments: ["@doctrine.orm.entity_manager"]
